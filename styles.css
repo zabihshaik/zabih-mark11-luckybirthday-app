@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root{
+    --primary-color: aquamarine;
+    --primary-dark:#ff0054;
+}
+body{
+    background-color: var(--primary-color);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-size:1.7rem;
+}
+
+h1{
+    font-size:2.5rem;
+    margin-top:2rem;
+    text-align:center;
+}
+
+.container{
+    font-weight:600;
+    margin:1rem 2rem 1rem;
+    padding:2rem;
+    width:400px;
+}
+
+input, label{
+    border-radius:10px;
+    border-color:#90e0ef;
+    display: block;
+    font-size:1.5rem;
+}
+
+input{
+    font-size:1rem;
+    margin: 2rem 0rem 2rem; 
+    padding:1rem;
+    width: 100%;
+}
+
+#check-number{
+    background-color:var(--primary-color);
+    border-color:var(--primary-dark);
+    border-radius:0.3rem;
+    border-width:medium;
+    cursor:pointer;
+    display: block;
+    font-size:1rem;
+    margin: auto;
+    padding:0.5rem;
+}
+#check-number:hover{
+    background-color: var(--primary-dark);
+    color:var(--primary-color);
+}
+
+#message{
+    color:navy;
+    font-size:1.5rem;
+    font-weight:600;
+    margin:1rem;
+    padding:1rem;    
+}
